@@ -10,8 +10,10 @@ The commands currently supported are:
 - `php artisan wash:cancel [date:YYYYMMDD] [slot:1-4]`
 
 ### Todo
+- List next [n] available washing times
+- List own reservations
 - Refactor procedual proof-of-concept fuglyness into more reusable components
 - Free the system of Laravel and Artisan and make it usable from everywhere, just like tools like Composer
-- Possibility to view and book times for more than one laundromat
+- Possibility to connect several laundromats
 - Scheduling feature for setting up a cron jobs to automatically book new times when existing have been used
 - Build a small web app that encompasses all of the above features as well (and at the same time is prettier to look at)
